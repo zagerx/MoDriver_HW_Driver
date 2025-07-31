@@ -608,6 +608,27 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "6b2aea6d-5084-4a15-abee-69a455b7078c",
+      "Root"
+    ],
+    [
+      "ecd3cbd5-4e2a-4cbd-93e4-e6de56463e65",
+      "PowerInput"
+    ],
+    [
+      "5772d040-df17-4bf9-89d6-199efe0c04cd",
+      "ThreePhase"
+    ],
+    [
+      "bd1ee54e-e470-4e6c-b487-ecc2bf967c4b",
+      "Pre_Driver"
+    ],
+    [
+      "82b97134-b855-43e4-9e5e-4df56bb433cd",
+      "YunFang"
+    ]
+  ],
   "text_variables": {}
 }
