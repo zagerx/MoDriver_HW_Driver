@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "moteus")(type "KiCad")(uri "/home/zhangge/worknote/MoDriverRepository/HardWare/KicadLib/symbols/moteus.kicad_sym")(options "")(descr ""))
+  (lib (name "moteus")(type "KiCad")(uri "/home/zhangge/worknote/MoDriverResP/HardWare/KicadLib/symbols/moteus.kicad_sym")(options "")(descr ""))
 )

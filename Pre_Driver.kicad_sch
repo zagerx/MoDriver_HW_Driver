@@ -432,7 +432,117 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 72.39) (xy 93.98 72.39)
+			(xy 83.82 77.47) (xy 93.98 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "042385c4-3fe4-4692-a9e0-df0ce04a88be")
+	)
+	(wire
+		(pts
+			(xy 124.46 74.93) (xy 138.43 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20f31a5b-ca8e-407f-abfc-76655743da83")
+	)
+	(wire
+		(pts
+			(xy 83.82 74.93) (xy 93.98 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40f97ebf-13bc-4e14-9bae-45307313519a")
+	)
+	(wire
+		(pts
+			(xy 124.46 82.55) (xy 138.43 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53ce44a7-a139-4686-91d3-cdd805009c90")
+	)
+	(wire
+		(pts
+			(xy 124.46 77.47) (xy 138.43 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56087f65-b9f4-4f0c-8acd-a5e0e483873c")
+	)
+	(wire
+		(pts
+			(xy 124.46 85.09) (xy 138.43 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "659cf8aa-bbf8-4951-b882-a372b540e1fd")
+	)
+	(wire
+		(pts
+			(xy 83.82 85.09) (xy 93.98 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72f6d96d-3a85-4930-8bf9-0553dfbd0d5e")
+	)
+	(wire
+		(pts
+			(xy 124.46 72.39) (xy 138.43 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84789417-f24a-4c3e-8ea6-577c0b786c47")
+	)
+	(wire
+		(pts
+			(xy 83.82 80.01) (xy 93.98 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfaa0050-506e-40e3-951d-b9e4725998e8")
+	)
+	(wire
+		(pts
+			(xy 83.82 82.55) (xy 93.98 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbab2544-0763-4ef7-8b80-f68b0db1ee1d")
+	)
+	(wire
+		(pts
+			(xy 124.46 80.01) (xy 138.43 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcc597ce-e009-4482-bfa4-c3a9853434ec")
+	)
+	(wire
+		(pts
+			(xy 83.82 72.39) (xy 93.98 72.39)
 		)
 		(stroke
 			(width 0)
@@ -440,9 +550,108 @@
 		)
 		(uuid "ffee96d9-394e-4255-9bca-acc46657cc42")
 	)
-	(hierarchical_label "PWM_CH1"
+	(hierarchical_label "M0_UL"
 		(shape output)
-		(at 64.77 72.39 180)
+		(at 138.43 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "14fc77ca-3731-4d91-b09e-584ee635fe6e")
+	)
+	(hierarchical_label "M0_UH"
+		(shape output)
+		(at 138.43 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "24255bcf-28f8-45fe-b63c-fe4707807d0a")
+	)
+	(hierarchical_label "M0_VL"
+		(shape output)
+		(at 138.43 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "34a37a59-c294-4af6-bfa6-1205a8c44800")
+	)
+	(hierarchical_label "PWM1_CH3N"
+		(shape output)
+		(at 83.82 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "48541b6f-ebf6-40d4-801f-44cf1bc4af06")
+	)
+	(hierarchical_label "PWM1_CH1N"
+		(shape output)
+		(at 83.82 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5add3e13-8a22-4d5f-a1d5-000a47622a56")
+	)
+	(hierarchical_label "PWM1_CH2"
+		(shape output)
+		(at 83.82 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "72cc5044-8fa6-4c90-959e-e26fa15296e4")
+	)
+	(hierarchical_label "M0_WH"
+		(shape output)
+		(at 138.43 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7b812a16-db50-49f3-9987-4bfd3f4205ff")
+	)
+	(hierarchical_label "M0_VH"
+		(shape output)
+		(at 138.43 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "96c98464-3bc1-4dbd-9da5-658f88c7e7e7")
+	)
+	(hierarchical_label "PWM1_CH2N"
+		(shape output)
+		(at 83.82 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9afbb98a-add4-4f30-8a28-8eefb48a1d7a")
+	)
+	(hierarchical_label "PWM1_CH1"
+		(shape output)
+		(at 83.82 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -450,6 +659,28 @@
 			(justify right)
 		)
 		(uuid "c167c122-f0f5-469b-8cc2-a09441a39c79")
+	)
+	(hierarchical_label "M0_WL"
+		(shape output)
+		(at 138.43 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f55838da-d093-4012-88e5-35404a0a887b")
+	)
+	(hierarchical_label "PWM1_CH3"
+		(shape output)
+		(at 83.82 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f6321200-c13e-49b5-87b6-91448550b76f")
 	)
 	(symbol
 		(lib_id "User_Driver:FD6288T")
