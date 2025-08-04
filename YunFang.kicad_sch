@@ -4,5 +4,811 @@
 	(generator_version "9.0")
 	(uuid "4ba10563-e43e-46a5-b129-06f3ac3f13c7")
 	(paper "A4")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "User_Driver:LMV324IDT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.842 -11.176 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:SSOP-14_5.3x6.2mm_P0.65mm"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LMV324IDT_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 8.255 -5.08) (xy 0 -10.16) (xy 0 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LMV324IDT_1_1"
+				(pin input line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -7.62 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LMV324IDT_2_1"
+				(pin input line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -7.62 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LMV324IDT_3_1"
+				(pin input line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -7.62 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "11"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LMV324IDT_4_1"
+				(pin input line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -7.62 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 0 270)
+					(length 2.54)
+					(name "V"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -10.16 90)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "D_O"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(hierarchical_label "ADC_U_CHANN"
+		(shape output)
+		(at 101.6 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0361acb7-67ba-453b-acd6-57696f404826")
+	)
+	(hierarchical_label "ADC_W_CHANN"
+		(shape output)
+		(at 102.87 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "299da3bc-971d-42a6-bfc5-260c35bb98e3")
+	)
+	(hierarchical_label "M0_W_CURR"
+		(shape input)
+		(at 38.1 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3d5f1ec0-4f41-48e4-9349-d599da00ea2a")
+	)
+	(hierarchical_label "M0_U_CURR"
+		(shape input)
+		(at 38.1 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "84b308ff-a82b-4661-9e66-90bcc373a2ad")
+	)
+	(hierarchical_label "M0_V_CURR"
+		(shape input)
+		(at 38.1 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c4b5dae6-c3f9-478b-931b-46e8bba697b0")
+	)
+	(hierarchical_label "ADC_V_CHANN"
+		(shape output)
+		(at 101.6 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f5b93b4d-af92-4fc4-aab5-d788b89a43f7")
+	)
+	(symbol
+		(lib_id "User_Driver:LMV324IDT")
+		(at 63.5 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10706389-471a-4322-bcf1-ac5efd0023e8")
+		(property "Reference" "U3"
+			(at 67.6275 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 67.6275 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SSOP-14_5.3x6.2mm_P0.65mm"
+			(at 63.5 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "18220c01-f76a-4af8-9c72-bd176f5af252")
+		)
+		(pin "11"
+			(uuid "224abcef-a253-48b7-9ec5-965739f8531a")
+		)
+		(pin "5"
+			(uuid "29c96d5c-2a3b-44ad-81d7-a33e3becbc6b")
+		)
+		(pin "8"
+			(uuid "19dcecf8-9819-4870-b0cb-7dfd575b4605")
+		)
+		(pin "1"
+			(uuid "6572cfd8-e82f-4e98-bdb4-67faeb48ed7f")
+		)
+		(pin "2"
+			(uuid "11750e89-67e5-4d13-b9c0-891f1b9cb46b")
+		)
+		(pin "10"
+			(uuid "4e633e2b-725e-4f44-b5c2-27f1b5b95b39")
+		)
+		(pin "14"
+			(uuid "273125ec-ae83-4b63-8082-f33f0dec05f8")
+		)
+		(pin "13"
+			(uuid "5fa66373-96f9-4e84-8b20-ea3a61f612e3")
+		)
+		(pin "12"
+			(uuid "a77c22f6-c7cb-47ec-80e9-8c89dd705927")
+		)
+		(pin "7"
+			(uuid "243121f6-e7fa-4e01-90db-faec2afbc11c")
+		)
+		(pin "9"
+			(uuid "f9dd5b22-9793-4a83-acad-a6201661cfd8")
+		)
+		(pin "6"
+			(uuid "ba87c3b4-c4de-44f4-8b1f-a1aafe15bbda")
+		)
+		(pin "3"
+			(uuid "81389ead-169f-45ee-b4e2-e87513e5b9d4")
+		)
+		(instances
+			(project ""
+				(path "/6b2aea6d-5084-4a15-abee-69a455b7078c/82b97134-b855-43e4-9e5e-4df56bb433cd"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Driver:LMV324IDT")
+		(at 63.5 68.58 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46171d32-0813-42e9-84e7-5b5d6cf51b34")
+		(property "Reference" "U3"
+			(at 67.6275 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 67.6275 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SSOP-14_5.3x6.2mm_P0.65mm"
+			(at 63.5 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "18220c01-f76a-4af8-9c72-bd176f5af253")
+		)
+		(pin "11"
+			(uuid "224abcef-a253-48b7-9ec5-965739f8531b")
+		)
+		(pin "5"
+			(uuid "29c96d5c-2a3b-44ad-81d7-a33e3becbc6c")
+		)
+		(pin "8"
+			(uuid "19dcecf8-9819-4870-b0cb-7dfd575b4606")
+		)
+		(pin "1"
+			(uuid "6572cfd8-e82f-4e98-bdb4-67faeb48ed80")
+		)
+		(pin "2"
+			(uuid "11750e89-67e5-4d13-b9c0-891f1b9cb46c")
+		)
+		(pin "10"
+			(uuid "4e633e2b-725e-4f44-b5c2-27f1b5b95b3a")
+		)
+		(pin "14"
+			(uuid "273125ec-ae83-4b63-8082-f33f0dec05f9")
+		)
+		(pin "13"
+			(uuid "5fa66373-96f9-4e84-8b20-ea3a61f612e4")
+		)
+		(pin "12"
+			(uuid "a77c22f6-c7cb-47ec-80e9-8c89dd705928")
+		)
+		(pin "7"
+			(uuid "243121f6-e7fa-4e01-90db-faec2afbc11d")
+		)
+		(pin "9"
+			(uuid "f9dd5b22-9793-4a83-acad-a6201661cfd9")
+		)
+		(pin "6"
+			(uuid "ba87c3b4-c4de-44f4-8b1f-a1aafe15bbdb")
+		)
+		(pin "3"
+			(uuid "81389ead-169f-45ee-b4e2-e87513e5b9d5")
+		)
+		(instances
+			(project ""
+				(path "/6b2aea6d-5084-4a15-abee-69a455b7078c/82b97134-b855-43e4-9e5e-4df56bb433cd"
+					(reference "U3")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Driver:LMV324IDT")
+		(at 63.5 83.82 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75549eec-5fe8-492f-80a8-c70c56a5c1f5")
+		(property "Reference" "U3"
+			(at 74.93 83.7498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 74.93 85.6549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SSOP-14_5.3x6.2mm_P0.65mm"
+			(at 63.5 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "18220c01-f76a-4af8-9c72-bd176f5af254")
+		)
+		(pin "11"
+			(uuid "224abcef-a253-48b7-9ec5-965739f8531c")
+		)
+		(pin "5"
+			(uuid "29c96d5c-2a3b-44ad-81d7-a33e3becbc6d")
+		)
+		(pin "8"
+			(uuid "19dcecf8-9819-4870-b0cb-7dfd575b4607")
+		)
+		(pin "1"
+			(uuid "6572cfd8-e82f-4e98-bdb4-67faeb48ed81")
+		)
+		(pin "2"
+			(uuid "11750e89-67e5-4d13-b9c0-891f1b9cb46d")
+		)
+		(pin "10"
+			(uuid "4e633e2b-725e-4f44-b5c2-27f1b5b95b3b")
+		)
+		(pin "14"
+			(uuid "273125ec-ae83-4b63-8082-f33f0dec05fa")
+		)
+		(pin "13"
+			(uuid "5fa66373-96f9-4e84-8b20-ea3a61f612e5")
+		)
+		(pin "12"
+			(uuid "a77c22f6-c7cb-47ec-80e9-8c89dd705929")
+		)
+		(pin "7"
+			(uuid "243121f6-e7fa-4e01-90db-faec2afbc11e")
+		)
+		(pin "9"
+			(uuid "f9dd5b22-9793-4a83-acad-a6201661cfda")
+		)
+		(pin "6"
+			(uuid "ba87c3b4-c4de-44f4-8b1f-a1aafe15bbdc")
+		)
+		(pin "3"
+			(uuid "81389ead-169f-45ee-b4e2-e87513e5b9d6")
+		)
+		(instances
+			(project ""
+				(path "/6b2aea6d-5084-4a15-abee-69a455b7078c/82b97134-b855-43e4-9e5e-4df56bb433cd"
+					(reference "U3")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Driver:LMV324IDT")
+		(at 63.5 52.07 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca50917e-ec1e-408c-a791-b4e5a7e43209")
+		(property "Reference" "U3"
+			(at 67.6275 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 67.6275 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SSOP-14_5.3x6.2mm_P0.65mm"
+			(at 63.5 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "18220c01-f76a-4af8-9c72-bd176f5af255")
+		)
+		(pin "11"
+			(uuid "224abcef-a253-48b7-9ec5-965739f8531d")
+		)
+		(pin "5"
+			(uuid "29c96d5c-2a3b-44ad-81d7-a33e3becbc6e")
+		)
+		(pin "8"
+			(uuid "19dcecf8-9819-4870-b0cb-7dfd575b4608")
+		)
+		(pin "1"
+			(uuid "6572cfd8-e82f-4e98-bdb4-67faeb48ed82")
+		)
+		(pin "2"
+			(uuid "11750e89-67e5-4d13-b9c0-891f1b9cb46e")
+		)
+		(pin "10"
+			(uuid "4e633e2b-725e-4f44-b5c2-27f1b5b95b3c")
+		)
+		(pin "14"
+			(uuid "273125ec-ae83-4b63-8082-f33f0dec05fb")
+		)
+		(pin "13"
+			(uuid "5fa66373-96f9-4e84-8b20-ea3a61f612e6")
+		)
+		(pin "12"
+			(uuid "a77c22f6-c7cb-47ec-80e9-8c89dd70592a")
+		)
+		(pin "7"
+			(uuid "243121f6-e7fa-4e01-90db-faec2afbc11f")
+		)
+		(pin "9"
+			(uuid "f9dd5b22-9793-4a83-acad-a6201661cfdb")
+		)
+		(pin "6"
+			(uuid "ba87c3b4-c4de-44f4-8b1f-a1aafe15bbdd")
+		)
+		(pin "3"
+			(uuid "81389ead-169f-45ee-b4e2-e87513e5b9d7")
+		)
+		(instances
+			(project ""
+				(path "/6b2aea6d-5084-4a15-abee-69a455b7078c/82b97134-b855-43e4-9e5e-4df56bb433cd"
+					(reference "U3")
+					(unit 2)
+				)
+			)
+		)
+	)
 )
