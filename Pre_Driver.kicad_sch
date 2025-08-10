@@ -335,7 +335,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -973,16 +973,16 @@
 		(uuid "2c7d7f3a-7558-4a52-a951-a918c2f891d1")
 	)
 	(junction
+		(at 175.26 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3377cc4d-4ae3-41b8-80a4-be3c0eaddfe0")
+	)
+	(junction
 		(at 127 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6fe21e29-3dbb-4d68-ad72-077904ba73fe")
-	)
-	(junction
-		(at 175.26 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7317da96-0aba-4e28-9332-81edcbf4d9fe")
 	)
 	(junction
 		(at 175.26 35.56)
@@ -1006,7 +1006,7 @@
 		(at 175.26 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e1dc8336-88f8-4566-851d-a460eb108c5f")
+		(uuid "df1645c3-aa70-4a71-997e-e56f279cfddc")
 	)
 	(junction
 		(at 127 63.5)
@@ -1645,178 +1645,6 @@
 		)
 	)
 	(symbol
-		(lib_name "D_Small_1")
-		(lib_id "Device:D_Small")
-		(at 175.26 53.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4cc7ab2e-6bd2-48ce-ad60-b90ed4c6c6da")
-		(property "Reference" "D2"
-			(at 181.102 51.816 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N5819"
-			(at 183.388 53.848 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 175.26 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 175.26 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 175.26 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 175.26 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c5cab5c4-1755-41f1-b3b0-2b0076584caa")
-		)
-		(pin "2"
-			(uuid "7af27ea3-1b4b-4d86-a411-a4c0901146b1")
-		)
-		(instances
-			(project "DriverBoard"
-				(path "/6b2aea6d-5084-4a15-abee-69a455b7078c/bd1ee54e-e470-4e6c-b487-ecc2bf967c4b"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "D_Small_1")
-		(lib_id "Device:D_Small")
-		(at 175.26 68.58 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "677b39cc-d6e1-42bb-a13e-5fd276af01d3")
-		(property "Reference" "D3"
-			(at 181.102 67.056 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N5819"
-			(at 183.388 69.088 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 175.26 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 175.26 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 175.26 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 175.26 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4164d55a-6e7a-4738-b0e4-c50b27746c4b")
-		)
-		(pin "2"
-			(uuid "1b9cda79-9a69-43f0-9096-2f74783e3c1b")
-		)
-		(instances
-			(project "DriverBoard"
-				(path "/6b2aea6d-5084-4a15-abee-69a455b7078c/bd1ee54e-e470-4e6c-b487-ecc2bf967c4b"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 175.26 58.42 180)
 		(unit 1)
@@ -1953,6 +1781,214 @@
 	(symbol
 		(lib_name "D_Small_1")
 		(lib_id "Device:D_Small")
+		(at 175.26 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c48cbfcc-de86-49eb-8f1d-655c6920012f")
+		(property "Reference" "D2"
+			(at 181.102 51.816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS1P3L-M3"
+			(at 183.388 53.848 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMP_DO-220AA"
+			(at 175.26 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 175.26 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 175.26 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 175.26 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "471b3935-79f3-4eeb-a02b-e936ddc0148d")
+		)
+		(pin "2"
+			(uuid "1af2ccf8-701f-4963-a4d8-9619158eec45")
+		)
+		(instances
+			(project "DriverBoard"
+				(path "/6b2aea6d-5084-4a15-abee-69a455b7078c/bd1ee54e-e470-4e6c-b487-ecc2bf967c4b"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Driver:FD6288")
+		(at 133.35 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5db85de-cf28-4243-8ab7-44e33048377e")
+		(property "Reference" "U1"
+			(at 143.51 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FD6288T"
+			(at 143.51 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+			(at 133.35 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "20"
+			(uuid "3454ec9c-4484-4146-8f99-5034b124bada")
+		)
+		(pin "19"
+			(uuid "271cefe2-9942-4ec4-9fa3-e832308e3950")
+		)
+		(pin "6"
+			(uuid "320eaeb0-56a8-4217-9a33-e1e1069fc04c")
+		)
+		(pin "11"
+			(uuid "58285fdf-035d-4e80-ba4f-da42d4d4e430")
+		)
+		(pin "5"
+			(uuid "690f2263-abe3-4712-b743-f93ef6381eda")
+		)
+		(pin "3"
+			(uuid "c4b68895-09cf-4e4c-b896-63191f535575")
+		)
+		(pin "14"
+			(uuid "a2a805e2-1b3f-433e-9cf0-ec2c6f52be25")
+		)
+		(pin "12"
+			(uuid "4b570f97-e085-4bfc-b14c-39b81f0f030d")
+		)
+		(pin "9"
+			(uuid "3abdafd0-78d9-4a4a-835f-3152cea81157")
+		)
+		(pin "13"
+			(uuid "0004ec10-e9eb-459a-9750-eb3a54f04d85")
+		)
+		(pin "2"
+			(uuid "44cac89c-033d-429c-921e-ee78ccc42f5d")
+		)
+		(pin "4"
+			(uuid "49b61cc9-de62-4b39-a56d-b15e8918e534")
+		)
+		(pin "18"
+			(uuid "e4dafc7d-0a45-432c-ab2c-43a7c2d74170")
+		)
+		(pin "16"
+			(uuid "b185fff7-9c32-4d19-9aa8-96be6f779885")
+		)
+		(pin "1"
+			(uuid "26d9e13b-aa4a-43f7-90ba-15043e281bc1")
+		)
+		(pin "7"
+			(uuid "e6d07f10-abd8-48e4-ad12-ba3fa2aeae96")
+		)
+		(pin "15"
+			(uuid "0ed7f93f-c113-47a1-960e-0c7a4ac6d02f")
+		)
+		(pin "17"
+			(uuid "e065eca2-fba7-4bb6-bfd2-fb6a5ef9cbc5")
+		)
+		(pin "10"
+			(uuid "d8dfab3b-af7e-4dc9-97ea-6cad082f8a40")
+		)
+		(pin "8"
+			(uuid "1b068850-0afd-40da-ad2d-0a1d0e546756")
+		)
+		(instances
+			(project ""
+				(path "/6b2aea6d-5084-4a15-abee-69a455b7078c/bd1ee54e-e470-4e6c-b487-ecc2bf967c4b"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "D_Small_1")
+		(lib_id "Device:D_Small")
 		(at 175.26 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1968,7 +2004,7 @@
 				)
 			)
 		)
-		(property "Value" "1N5819"
+		(property "Value" "SS1P3L-M3"
 			(at 183.388 38.608 90)
 			(effects
 				(font
@@ -1976,7 +2012,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SMP_DO-220AA"
 			(at 175.26 38.1 90)
 			(effects
 				(font
@@ -2104,41 +2140,33 @@
 		)
 	)
 	(symbol
-		(lib_id "User_Driver:FD6288")
-		(at 133.35 29.21 0)
+		(lib_name "D_Small_1")
+		(lib_id "Device:D_Small")
+		(at 175.26 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d3ae4539-f879-484c-adc6-66ebd213c34d")
-		(property "Reference" "U1"
-			(at 134.62 27.94 0)
+		(uuid "d48bbc5c-ceea-48f2-8b73-7b1322a2792a")
+		(property "Reference" "D3"
+			(at 181.102 67.056 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "F6288T"
-			(at 143.002 50.038 0)
+		(property "Value" "SS1P3L-M3"
+			(at 183.388 69.088 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 133.35 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 29.21 0)
+		(property "Footprint" "Diode_SMD:D_SMP_DO-220AA"
+			(at 175.26 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2146,8 +2174,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 133.35 29.21 0)
+		(property "Datasheet" "~"
+			(at 175.26 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2155,70 +2183,43 @@
 				(hide yes)
 			)
 		)
-		(pin "10"
-			(uuid "bac1544d-42f8-48b8-81ce-7b43117e1b82")
+		(property "Description" "Diode, small symbol"
+			(at 175.26 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "15"
-			(uuid "0e0e4408-3fbd-4e29-b9de-512b0a8b1eaf")
+		(property "Sim.Device" "D"
+			(at 175.26 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "2"
-			(uuid "26bd40cb-8a31-4dc5-b21c-6034fd65d79c")
-		)
-		(pin "3"
-			(uuid "de0b3fac-0862-4094-9c6c-061d6fb2c62c")
-		)
-		(pin "5"
-			(uuid "e8073020-cb94-446e-b313-cc03ff7584e0")
-		)
-		(pin "7"
-			(uuid "3b654c29-f3a6-4c46-b8ab-f4e5d28cff85")
-		)
-		(pin "6"
-			(uuid "95987106-fc51-4e63-afc9-08cd0c0a7b50")
-		)
-		(pin "9"
-			(uuid "40655b3a-cf55-4fee-a5de-e2e154643aca")
-		)
-		(pin "18"
-			(uuid "4c1dd73c-7cdd-4372-aeda-2714dcf9eb25")
+		(property "Sim.Pins" "1=K 2=A"
+			(at 175.26 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "0eb5ab6d-a082-42ba-8b3c-cb5c8b9d4850")
+			(uuid "abae9f5a-3bbb-4945-a5e2-f244ce29dce1")
 		)
-		(pin "13"
-			(uuid "fe8b20fb-279f-4b38-a000-3a8f1722df18")
-		)
-		(pin "14"
-			(uuid "dbe1b90a-6ec3-460d-8968-37e277697dab")
-		)
-		(pin "17"
-			(uuid "300bc9b3-0021-43fa-a265-4724125888d7")
-		)
-		(pin "4"
-			(uuid "77567aa3-bf3a-49a2-acab-2ac72d1b3262")
-		)
-		(pin "11"
-			(uuid "d4eb3dc3-c690-47fd-bd14-8f5afaa5048b")
-		)
-		(pin "20"
-			(uuid "192aeb9a-7143-4991-a50c-a6b289206727")
-		)
-		(pin "8"
-			(uuid "eb0ad872-475b-435d-9a4b-7c43c552d0d9")
-		)
-		(pin "19"
-			(uuid "5fbff044-b311-4d1f-b61c-94f3864afda5")
-		)
-		(pin "12"
-			(uuid "36d23641-fbba-4c88-900c-92d31b3321bd")
-		)
-		(pin "16"
-			(uuid "8130d1a3-e799-42ef-ad30-aa873848b1ed")
+		(pin "2"
+			(uuid "de21c34e-78ff-4546-ac75-ce79cb530402")
 		)
 		(instances
-			(project ""
+			(project "DriverBoard"
 				(path "/6b2aea6d-5084-4a15-abee-69a455b7078c/bd1ee54e-e470-4e6c-b487-ecc2bf967c4b"
-					(reference "U1")
+					(reference "D3")
 					(unit 1)
 				)
 			)
