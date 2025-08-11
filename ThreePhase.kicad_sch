@@ -454,43 +454,34 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "User_Driver:HYG025N06"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "User_Driver:NMOS_GDS"
 			(pin_names
+				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at -9.144 3.556 0)
+				(at 5.08 1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" ""
-				(at 0 -1.27 0)
+			(property "Value" "NMOS_GDS"
+				(at 5.08 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_6x5mm_P1.27mm_EP4x4mm"
-				(at 1.524 -19.558 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -1.27 0)
+			(property "Footprint" "footprints:HYG025N06LS1C2-PDFN-8-1EP_6x5mm_P1.27mm_EP3x3mm"
+				(at 5.08 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -498,8 +489,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 -1.27 0)
+			(property "Datasheet" "~"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -507,10 +498,28 @@
 					(hide yes)
 				)
 			)
-			(symbol "HYG025N06_0_1"
+			(property "Description" "N-MOSFET transistor, gate/drain/source"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NMOS_GDS_0_1"
 				(polyline
 					(pts
-						(xy -1.016 1.905) (xy -1.016 -1.905)
+						(xy 0.254 1.905) (xy 0.254 -1.905)
 					)
 					(stroke
 						(width 0.254)
@@ -522,7 +531,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.016 0) (xy -3.81 0)
+						(xy 0.254 0) (xy -2.54 0)
 					)
 					(stroke
 						(width 0)
@@ -534,7 +543,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.508 2.286) (xy -0.508 1.27)
+						(xy 0.762 2.286) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -546,7 +555,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.508 0.508) (xy -0.508 -0.508)
+						(xy 0.762 0.508) (xy 0.762 -0.508)
 					)
 					(stroke
 						(width 0.254)
@@ -558,7 +567,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.508 -1.27) (xy -0.508 -2.286)
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
 					)
 					(stroke
 						(width 0.254)
@@ -570,7 +579,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.508 -1.778) (xy 2.032 -1.778) (xy 2.032 1.778) (xy -0.508 1.778)
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
 					)
 					(stroke
 						(width 0)
@@ -582,7 +591,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.254 0) (xy 0.762 0.381) (xy 0.762 -0.381) (xy -0.254 0)
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
 					)
 					(stroke
 						(width 0)
@@ -593,7 +602,7 @@
 					)
 				)
 				(circle
-					(center 0.381 0)
+					(center 1.651 0)
 					(radius 2.794)
 					(stroke
 						(width 0.254)
@@ -605,7 +614,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 2.54) (xy 1.27 1.778)
+						(xy 2.54 2.54) (xy 2.54 1.778)
 					)
 					(stroke
 						(width 0)
@@ -616,7 +625,7 @@
 					)
 				)
 				(circle
-					(center 1.27 1.778)
+					(center 2.54 1.778)
 					(radius 0.254)
 					(stroke
 						(width 0)
@@ -627,7 +636,7 @@
 					)
 				)
 				(circle
-					(center 1.27 -1.778)
+					(center 2.54 -1.778)
 					(radius 0.254)
 					(stroke
 						(width 0)
@@ -639,7 +648,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -2.54) (xy 1.27 0) (xy -0.508 0)
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
 					)
 					(stroke
 						(width 0)
@@ -651,7 +660,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.524 0.508) (xy 1.651 0.381) (xy 2.413 0.381) (xy 2.54 0.254)
+						(xy 2.921 0.381) (xy 3.683 0.381)
 					)
 					(stroke
 						(width 0)
@@ -663,7 +672,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.032 0.381) (xy 1.651 -0.254) (xy 2.413 -0.254) (xy 2.032 0.381)
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
 					)
 					(stroke
 						(width 0)
@@ -674,9 +683,9 @@
 					)
 				)
 			)
-			(symbol "HYG025N06_1_1"
+			(symbol "NMOS_GDS_1_1"
 				(pin input line
-					(at -6.35 0 0)
+					(at -5.08 0 0)
 					(length 2.54)
 					(name "G"
 						(effects
@@ -685,7 +694,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -694,45 +703,7 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 5.08 270)
-					(length 2.54)
-					(hide yes)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -1.27 5.08 270)
-					(length 2.54)
-					(hide yes)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 5.08 270)
+					(at 2.54 5.08 270)
 					(length 2.54)
 					(name "D"
 						(effects
@@ -741,7 +712,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -750,7 +721,7 @@
 					)
 				)
 				(pin passive line
-					(at 1.27 -5.08 90)
+					(at 2.54 -5.08 90)
 					(length 2.54)
 					(name "S"
 						(effects
@@ -759,83 +730,7 @@
 							)
 						)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 5.08 270)
-					(length 2.54)
-					(hide yes)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 -5.08 90)
-					(length 2.54)
-					(hide yes)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 5.08 270)
-					(length 2.54)
-					(hide yes)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -5.08 90)
-					(length 2.54)
-					(hide yes)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
+					(number "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1943,7 +1838,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 63.5 73.66 0)
 			(effects
 				(font
@@ -1986,16 +1881,17 @@
 		)
 	)
 	(symbol
-		(lib_id "User_Driver:HYG025N06")
-		(at 62.23 60.96 0)
+		(lib_id "User_Driver:NMOS_GDS")
+		(at 124.46 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1aee6377-ae5c-46ce-b14f-69af45bfd447")
-		(property "Reference" "Q1"
-			(at 64.262 56.134 0)
+		(fields_autoplaced yes)
+		(uuid "2f10ea01-cb89-42de-b568-4f1421ea2808")
+		(property "Reference" "Q2"
+			(at 130.81 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2004,7 +1900,7 @@
 			)
 		)
 		(property "Value" "HYG025N06LS1C2"
-			(at 65.024 64.77 0)
+			(at 130.81 41.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2012,99 +1908,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_6x5mm_P1.27mm_EP4x4mm"
-			(at 63.754 80.518 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 62.23 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a711633c-6595-4039-914d-0a33f55afca6")
-		)
-		(pin "4"
-			(uuid "bd8d1167-8b34-4664-96a9-0151972d77cf")
-		)
-		(pin "9"
-			(uuid "a7d990d0-9c3d-42c5-b414-103a507b1653")
-		)
-		(pin "8"
-			(uuid "92a0e724-2416-40c3-bf6d-7205c12fbddd")
-		)
-		(pin "5"
-			(uuid "5d86e7ab-b224-4bdd-a8f2-6893eadf2a68")
-		)
-		(pin "7"
-			(uuid "30cfe664-37d4-473b-8b94-946efd74be02")
-		)
-		(pin "6"
-			(uuid "7b9d28ff-50f5-4f10-86a9-ce9b6a6e93c5")
-		)
-		(pin "3"
-			(uuid "8e1d374c-5101-42e8-94e7-9376f8f2a3bd")
-		)
-		(pin "2"
-			(uuid "54c47094-e9b3-421d-a659-430a5e68b866")
-		)
-		(instances
-			(project "DriverBoard"
-				(path "/6b2aea6d-5084-4a15-abee-69a455b7078c/5772d040-df17-4bf9-89d6-199efe0c04cd"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 127 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ca395a3-fe1f-4be8-8d2d-3ce06df6f01f")
-		(property "Reference" "R16"
-			(at 129.54 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5mR"
-			(at 129.54 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 73.66 0)
+		(property "Footprint" "footprints:HYG025N06LS1C2-PDFN-8-1EP_6x5mm_P1.27mm_EP3x3mm"
+			(at 129.54 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2113,7 +1918,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 73.66 0)
+			(at 124.46 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2121,8 +1926,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
-			(at 127 73.66 0)
+		(property "Description" "N-MOSFET transistor, gate/drain/source"
+			(at 124.46 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2130,86 +1935,19 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "a7508a2d-1d82-4189-8187-ff2158557980")
+		(pin "G"
+			(uuid "e82408c3-0d66-49f9-90be-08d826679d3e")
 		)
-		(pin "1"
-			(uuid "ea92afd1-dead-4cec-a754-70dad0d72f98")
+		(pin "S"
+			(uuid "63bac629-4cad-4fe8-95bf-e001ef349c99")
+		)
+		(pin "D"
+			(uuid "a008e318-fbaa-4977-9cab-0525d98a733f")
 		)
 		(instances
 			(project "DriverBoard"
 				(path "/6b2aea6d-5084-4a15-abee-69a455b7078c/5772d040-df17-4bf9-89d6-199efe0c04cd"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 190.5 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "318976c9-39c5-4c16-9996-9e02082ab8ee")
-		(property "Reference" "R17"
-			(at 193.04 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5mR"
-			(at 193.04 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 190.5 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 190.5 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "08b17130-b66f-4b8b-bd82-10e5a4f91f9f")
-		)
-		(pin "1"
-			(uuid "0e057de4-b12f-4b2e-a563-20486601b2a8")
-		)
-		(instances
-			(project "DriverBoard"
-				(path "/6b2aea6d-5084-4a15-abee-69a455b7078c/5772d040-df17-4bf9-89d6-199efe0c04cd"
-					(reference "R17")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -2243,7 +1981,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:MR30PW-FB_1x03_P3.50mm_Horizontal"
 			(at 232.41 50.8 0)
 			(effects
 				(font
@@ -2289,6 +2027,79 @@
 		)
 	)
 	(symbol
+		(lib_id "User_Driver:NMOS_GDS")
+		(at 187.96 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39fcd8eb-79ff-4bd4-ab4a-d2ea288f6097")
+		(property "Reference" "Q5"
+			(at 194.31 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HYG025N06LS1C2"
+			(at 194.31 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:HYG025N06LS1C2-PDFN-8-1EP_6x5mm_P1.27mm_EP3x3mm"
+			(at 193.04 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/drain/source"
+			(at 187.96 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "G"
+			(uuid "a296b584-68b4-4a9b-b524-fd4d06effbef")
+		)
+		(pin "S"
+			(uuid "bcd1dc0f-7416-42f6-a996-87f1ca24aef0")
+		)
+		(pin "D"
+			(uuid "368fa038-ca54-45ec-b8d2-06bc4cacf3ff")
+		)
+		(instances
+			(project "DriverBoard"
+				(path "/6b2aea6d-5084-4a15-abee-69a455b7078c/5772d040-df17-4bf9-89d6-199efe0c04cd"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 179.07 40.64 90)
 		(unit 1)
@@ -2313,7 +2124,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 179.07 40.64 0)
 			(effects
 				(font
@@ -2356,96 +2167,6 @@
 		)
 	)
 	(symbol
-		(lib_id "User_Driver:HYG025N06")
-		(at 189.23 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "41b6691d-4b47-4a2d-a45c-e1f0b440a841")
-		(property "Reference" "Q4"
-			(at 191.262 35.814 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "HYG025N06LS1C2"
-			(at 192.024 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_6x5mm_P1.27mm_EP4x4mm"
-			(at 190.754 60.198 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 189.23 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5f55e243-8f2b-47d2-934e-f1fc928feddb")
-		)
-		(pin "4"
-			(uuid "016e09b3-6d0a-458d-aed2-2eb3691172f9")
-		)
-		(pin "9"
-			(uuid "9b96c44a-f8e3-488a-adf3-e3219b4a8e96")
-		)
-		(pin "8"
-			(uuid "d665380c-9f63-43d2-b4c3-895af90fa5c3")
-		)
-		(pin "5"
-			(uuid "46ce3ae6-4449-4321-ba4d-e1d23124bd27")
-		)
-		(pin "7"
-			(uuid "f78d0763-cdfc-4da0-aeed-79ae6dd12424")
-		)
-		(pin "6"
-			(uuid "a4b0b4f8-2ad5-473a-a67a-237683af76d1")
-		)
-		(pin "3"
-			(uuid "cfb97228-9545-49f6-a888-1e540f2365e6")
-		)
-		(pin "2"
-			(uuid "63ee5100-bb80-41b8-ac1a-2d6ec57024ac")
-		)
-		(instances
-			(project "DriverBoard"
-				(path "/6b2aea6d-5084-4a15-abee-69a455b7078c/5772d040-df17-4bf9-89d6-199efe0c04cd"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 50.8 40.64 90)
 		(unit 1)
@@ -2470,7 +2191,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 50.8 40.64 0)
 			(effects
 				(font
@@ -2513,16 +2234,17 @@
 		)
 	)
 	(symbol
-		(lib_id "User_Driver:HYG025N06")
-		(at 189.23 60.96 0)
+		(lib_id "User_Driver:NMOS_GDS")
+		(at 187.96 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "53b22199-a514-4627-9028-b1c7872eeb70")
-		(property "Reference" "Q5"
-			(at 191.262 56.134 0)
+		(fields_autoplaced yes)
+		(uuid "688e842e-c57e-4209-9be0-7d3d3a3c9985")
+		(property "Reference" "Q4"
+			(at 194.31 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2531,7 +2253,7 @@
 			)
 		)
 		(property "Value" "HYG025N06LS1C2"
-			(at 192.024 64.77 0)
+			(at 194.31 41.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2539,8 +2261,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_6x5mm_P1.27mm_EP4x4mm"
-			(at 190.754 80.518 0)
+		(property "Footprint" "footprints:HYG025N06LS1C2-PDFN-8-1EP_6x5mm_P1.27mm_EP3x3mm"
+			(at 193.04 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2548,8 +2270,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 189.23 62.23 0)
+		(property "Datasheet" "~"
+			(at 187.96 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2557,8 +2279,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 189.23 62.23 0)
+		(property "Description" "N-MOSFET transistor, gate/drain/source"
+			(at 187.96 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2566,37 +2288,162 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "892d77c7-b761-41b9-9e1e-b7a84a28ca66")
+		(pin "G"
+			(uuid "53688bcc-c1bf-4084-85bd-17369b121dae")
 		)
-		(pin "4"
-			(uuid "fce96c05-94ce-4ab3-a0ba-c057dc66ad6d")
+		(pin "S"
+			(uuid "e1474bb4-39dc-46bb-938a-3c0c1d2434a5")
 		)
-		(pin "9"
-			(uuid "d850f2d8-ce3a-4cf5-ad6d-13e8995faea6")
-		)
-		(pin "8"
-			(uuid "c9c66ed7-18eb-41a5-95d2-3fcc8a10dd20")
-		)
-		(pin "5"
-			(uuid "91ffb557-67de-4a4b-8731-02c49445a8ca")
-		)
-		(pin "7"
-			(uuid "9bf509c8-0f7e-47ac-a7d0-3b1d4fe3324f")
-		)
-		(pin "6"
-			(uuid "b5bdf072-6edf-4b05-b003-38cf4a607df6")
-		)
-		(pin "3"
-			(uuid "722561cc-f270-4751-b4eb-f7f456d28f58")
-		)
-		(pin "2"
-			(uuid "30e6ef9c-ed2b-46dc-8fd3-7e89d7fc0a7b")
+		(pin "D"
+			(uuid "68f1f509-5fb6-4230-b8eb-553a57ba8b9c")
 		)
 		(instances
 			(project "DriverBoard"
 				(path "/6b2aea6d-5084-4a15-abee-69a455b7078c/5772d040-df17-4bf9-89d6-199efe0c04cd"
-					(reference "Q5")
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Driver:NMOS_GDS")
+		(at 60.96 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78fcd58d-c1cb-46b4-bd8b-18497ccc8d1b")
+		(property "Reference" "Q1"
+			(at 67.31 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HYG025N06LS1C2"
+			(at 67.31 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:HYG025N06LS1C2-PDFN-8-1EP_6x5mm_P1.27mm_EP3x3mm"
+			(at 66.04 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/drain/source"
+			(at 60.96 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "G"
+			(uuid "d0961854-e46c-4e76-a2d2-a974dfd83a90")
+		)
+		(pin "S"
+			(uuid "3c09e407-b735-458e-8ec2-7d7322f2f475")
+		)
+		(pin "D"
+			(uuid "41c8da47-96dc-48f1-9159-2fc061772476")
+		)
+		(instances
+			(project "DriverBoard"
+				(path "/6b2aea6d-5084-4a15-abee-69a455b7078c/5772d040-df17-4bf9-89d6-199efe0c04cd"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 127 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "949b1f28-81bc-423c-9634-fb557932778a")
+		(property "Reference" "R3"
+			(at 129.54 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5mR"
+			(at 129.54 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 127 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 127 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "798a22af-ef80-4aac-87b3-4629e79d7a42")
+		)
+		(pin "1"
+			(uuid "59022939-226b-44c7-89b0-faaea0e59c43")
+		)
+		(instances
+			(project "DriverBoard"
+				(path "/6b2aea6d-5084-4a15-abee-69a455b7078c/5772d040-df17-4bf9-89d6-199efe0c04cd"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -2629,7 +2476,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 76.2 60.96 0)
 			(effects
 				(font
@@ -2698,7 +2545,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 139.7 60.96 0)
 			(effects
 				(font
@@ -2735,6 +2582,79 @@
 			(project "DriverBoard"
 				(path "/6b2aea6d-5084-4a15-abee-69a455b7078c/5772d040-df17-4bf9-89d6-199efe0c04cd"
 					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "User_Driver:NMOS_GDS")
+		(at 60.96 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5b6a15e-ed8e-4ed3-a8b4-18cde668093d")
+		(property "Reference" "Q6"
+			(at 67.31 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HYG025N06LS1C2"
+			(at 67.31 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:HYG025N06LS1C2-PDFN-8-1EP_6x5mm_P1.27mm_EP3x3mm"
+			(at 66.04 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/drain/source"
+			(at 60.96 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "G"
+			(uuid "eadbfdde-88d1-432c-9b5c-54f1776d437c")
+		)
+		(pin "S"
+			(uuid "69bce65d-bf3d-4245-bf59-d4d30c71474d")
+		)
+		(pin "D"
+			(uuid "879e2937-4545-4583-a38c-7c9ef62d1cd6")
+		)
+		(instances
+			(project ""
+				(path "/6b2aea6d-5084-4a15-abee-69a455b7078c/5772d040-df17-4bf9-89d6-199efe0c04cd"
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -2831,7 +2751,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 50.8 60.96 0)
 			(effects
 				(font
@@ -2898,7 +2818,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 179.07 60.96 0)
 			(effects
 				(font
@@ -2942,6 +2862,76 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
+		(at 190.5 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7513766-707e-48ec-b037-75107cb34500")
+		(property "Reference" "R4"
+			(at 193.04 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5mR"
+			(at 193.04 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 190.5 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 190.5 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "74375801-3d01-4015-a37a-cd9d47d9d605")
+		)
+		(pin "1"
+			(uuid "f074f01b-c940-495c-a436-4966eb12beb0")
+		)
+		(instances
+			(project "DriverBoard"
+				(path "/6b2aea6d-5084-4a15-abee-69a455b7078c/5772d040-df17-4bf9-89d6-199efe0c04cd"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
 		(at 115.57 40.64 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2965,7 +2955,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 115.57 40.64 0)
 			(effects
 				(font
@@ -3008,16 +2998,17 @@
 		)
 	)
 	(symbol
-		(lib_id "User_Driver:HYG025N06")
-		(at 125.73 60.96 0)
+		(lib_id "User_Driver:NMOS_GDS")
+		(at 124.46 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d96925e2-83e3-4604-828d-00dce18b7ab1")
+		(fields_autoplaced yes)
+		(uuid "d118b7f8-abe9-4f51-ad08-85b6bceb2b79")
 		(property "Reference" "Q3"
-			(at 127.762 56.134 0)
+			(at 130.81 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3026,7 +3017,7 @@
 			)
 		)
 		(property "Value" "HYG025N06LS1C2"
-			(at 128.524 64.77 0)
+			(at 130.81 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3034,8 +3025,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_6x5mm_P1.27mm_EP4x4mm"
-			(at 127.254 80.518 0)
+		(property "Footprint" "footprints:HYG025N06LS1C2-PDFN-8-1EP_6x5mm_P1.27mm_EP3x3mm"
+			(at 129.54 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3043,8 +3034,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 125.73 62.23 0)
+		(property "Datasheet" "~"
+			(at 124.46 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3052,8 +3043,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 125.73 62.23 0)
+		(property "Description" "N-MOSFET transistor, gate/drain/source"
+			(at 124.46 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3061,217 +3052,19 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "3aaaa550-80f9-4e65-8c1f-51beab5aa6d6")
+		(pin "G"
+			(uuid "548d5286-37dd-4f8f-94c5-fd83b678703b")
 		)
-		(pin "4"
-			(uuid "df6f4997-1f37-4cee-b88f-debe4ae70707")
+		(pin "S"
+			(uuid "133bd7f5-a4f3-402f-a462-f47d39f0f188")
 		)
-		(pin "9"
-			(uuid "e8e280ad-c4af-4c28-846b-c69442bc999b")
-		)
-		(pin "8"
-			(uuid "bcd3ccdb-f107-4970-ac31-9b228907af8a")
-		)
-		(pin "5"
-			(uuid "a8412e9f-bd52-408e-8d66-dd02a0be2d4e")
-		)
-		(pin "7"
-			(uuid "aa103a95-7fd3-4473-8177-aef0e2998929")
-		)
-		(pin "6"
-			(uuid "3885498a-7c18-495b-b7bd-2bdfe9927880")
-		)
-		(pin "3"
-			(uuid "8b38262a-ea53-4700-8dc8-1a990e128846")
-		)
-		(pin "2"
-			(uuid "192df20e-8f36-4215-afd7-9a343f0de789")
+		(pin "D"
+			(uuid "49fbb1fe-03a3-4552-9334-fa1980483c08")
 		)
 		(instances
 			(project "DriverBoard"
 				(path "/6b2aea6d-5084-4a15-abee-69a455b7078c/5772d040-df17-4bf9-89d6-199efe0c04cd"
 					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "User_Driver:HYG025N06")
-		(at 62.23 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dadc2790-8da6-4829-b581-1c7f0c62bea3")
-		(property "Reference" "Q7"
-			(at 64.262 35.814 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "HYG025N06LS1C2"
-			(at 65.024 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_6x5mm_P1.27mm_EP4x4mm"
-			(at 63.754 60.198 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 62.23 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9fa96cca-4c6f-4069-bb5e-cd45b1ac6e79")
-		)
-		(pin "4"
-			(uuid "32853ecd-d38f-48a8-8178-4ac716fe24ab")
-		)
-		(pin "9"
-			(uuid "6a69f028-7b6e-430f-8159-3aab92d8e5d8")
-		)
-		(pin "8"
-			(uuid "1bb23f54-3d54-4ce2-8e2d-64badb10bef4")
-		)
-		(pin "5"
-			(uuid "9611194c-4abf-4709-8362-4c7373f7b6a1")
-		)
-		(pin "7"
-			(uuid "dde0c571-2174-4f52-9dca-89bfa1fded1f")
-		)
-		(pin "6"
-			(uuid "8c8fde35-b9e1-41b3-93dc-591d792da16a")
-		)
-		(pin "3"
-			(uuid "db6922c2-898f-4088-bd66-e06d3a601d83")
-		)
-		(pin "2"
-			(uuid "ebc9b101-dcf9-4366-acc9-a725b050fb4c")
-		)
-		(instances
-			(project ""
-				(path "/6b2aea6d-5084-4a15-abee-69a455b7078c/5772d040-df17-4bf9-89d6-199efe0c04cd"
-					(reference "Q7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "User_Driver:HYG025N06")
-		(at 125.73 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f17de9ee-03ff-46d9-ad3b-e46752ec7610")
-		(property "Reference" "Q2"
-			(at 127.762 35.814 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "HYG025N06LS1C2"
-			(at 128.524 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_6x5mm_P1.27mm_EP4x4mm"
-			(at 127.254 60.198 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 125.73 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "51b7414c-c420-4dbe-bdd2-9d4396903651")
-		)
-		(pin "4"
-			(uuid "27269e27-0b49-4aef-b4f2-58fe4263554c")
-		)
-		(pin "9"
-			(uuid "32ea664c-2a14-4af2-a024-f59a4de64f8d")
-		)
-		(pin "8"
-			(uuid "bfc42d50-6cd1-4a97-9deb-2e5aa8184335")
-		)
-		(pin "5"
-			(uuid "d0558fb6-3a83-4554-a407-f97226f6ac34")
-		)
-		(pin "7"
-			(uuid "e0357dea-7ba6-4b3f-8f8b-68e35e2e1c44")
-		)
-		(pin "6"
-			(uuid "e2d16ade-6b73-41bd-a53b-6afda07e0d9a")
-		)
-		(pin "3"
-			(uuid "dda25202-d7f3-4527-9fdd-25fed8b40a7f")
-		)
-		(pin "2"
-			(uuid "c4708279-ae4f-4943-a5ff-aa1fea91fb86")
-		)
-		(instances
-			(project "DriverBoard"
-				(path "/6b2aea6d-5084-4a15-abee-69a455b7078c/5772d040-df17-4bf9-89d6-199efe0c04cd"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -3302,7 +3095,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 115.57 60.96 0)
 			(effects
 				(font
@@ -3371,7 +3164,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 203.2 60.96 0)
 			(effects
 				(font
