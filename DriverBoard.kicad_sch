@@ -1754,7 +1754,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07985cb4-0057-487a-8a9e-16afd1e35ba5")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG01"
 			(at 30.48 28.575 0)
 			(effects
 				(font
@@ -1805,7 +1805,7 @@
 		(instances
 			(project "DriverBoard"
 				(path "/6b2aea6d-5084-4a15-abee-69a455b7078c"
-					(reference "#FLG03")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -1821,7 +1821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40a373ef-de5e-47a3-bae5-462ad0547559")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR03"
 			(at 30.48 27.94 0)
 			(effects
 				(font
@@ -1871,7 +1871,7 @@
 		(instances
 			(project "DriverBoard"
 				(path "/6b2aea6d-5084-4a15-abee-69a455b7078c"
-					(reference "#PWR010")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -1887,7 +1887,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56f599c6-4085-47a2-8b31-df7ae3f709bf")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR01"
 			(at 24.13 124.46 0)
 			(effects
 				(font
@@ -1937,7 +1937,7 @@
 		(instances
 			(project "DriverBoard"
 				(path "/6b2aea6d-5084-4a15-abee-69a455b7078c"
-					(reference "#PWR03")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -1953,7 +1953,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96fb28db-c1eb-4223-a0ac-6b529b8c047c")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR07"
 			(at 80.01 110.49 0)
 			(effects
 				(font
@@ -2004,7 +2004,7 @@
 		(instances
 			(project "DriverBoard"
 				(path "/6b2aea6d-5084-4a15-abee-69a455b7078c"
-					(reference "#PWR06")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -2021,7 +2021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c1b2f3a-a237-4a87-89cb-6b0e77dd4bce")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR05"
 			(at 38.1 27.94 0)
 			(effects
 				(font
@@ -2071,7 +2071,7 @@
 		(instances
 			(project "DriverBoard"
 				(path "/6b2aea6d-5084-4a15-abee-69a455b7078c"
-					(reference "#PWR011")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -2087,7 +2087,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a29e06c8-3768-44ee-add9-38666154c63f")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR04"
 			(at 36.83 134.62 0)
 			(effects
 				(font
@@ -2138,7 +2138,7 @@
 		(instances
 			(project "DriverBoard"
 				(path "/6b2aea6d-5084-4a15-abee-69a455b7078c"
-					(reference "#PWR05")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -2155,7 +2155,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab4d46f3-e018-41be-b4d7-9f2c684283c6")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR02"
 			(at 29.21 124.46 0)
 			(effects
 				(font
@@ -2205,7 +2205,7 @@
 		(instances
 			(project "DriverBoard"
 				(path "/6b2aea6d-5084-4a15-abee-69a455b7078c"
-					(reference "#PWR012")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -2221,7 +2221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aca3d876-85c9-4efb-8850-798a4fc60999")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR06"
 			(at 45.72 17.78 0)
 			(effects
 				(font
@@ -2271,7 +2271,7 @@
 		(instances
 			(project "DriverBoard"
 				(path "/6b2aea6d-5084-4a15-abee-69a455b7078c"
-					(reference "#PWR037")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -2393,7 +2393,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd99340a-09b0-4e02-97da-4975b0d472cf")
-		(property "Reference" "#FLG05"
+		(property "Reference" "#FLG02"
 			(at 38.1 28.575 0)
 			(effects
 				(font
@@ -2444,7 +2444,7 @@
 		(instances
 			(project "DriverBoard"
 				(path "/6b2aea6d-5084-4a15-abee-69a455b7078c"
-					(reference "#FLG05")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -2565,7 +2565,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec24bf95-895d-401b-a683-21558fb3eae8")
-		(property "Reference" "#FLG06"
+		(property "Reference" "#FLG03"
 			(at 45.72 28.575 0)
 			(effects
 				(font
@@ -2616,7 +2616,7 @@
 		(instances
 			(project "DriverBoard"
 				(path "/6b2aea6d-5084-4a15-abee-69a455b7078c"
-					(reference "#FLG06")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
