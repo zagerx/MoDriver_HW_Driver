@@ -973,22 +973,28 @@
 		(uuid "2c7d7f3a-7558-4a52-a951-a918c2f891d1")
 	)
 	(junction
+		(at 175.26 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39c9dc08-721c-4989-ba0e-a1e5f2bbe5a8")
+	)
+	(junction
+		(at 175.26 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43d8bd9e-334f-45b7-b1ca-8807d877a472")
+	)
+	(junction
 		(at 175.26 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3377cc4d-4ae3-41b8-80a4-be3c0eaddfe0")
+		(uuid "478e16aa-4b84-40df-9ca8-fecbb68fff38")
 	)
 	(junction
 		(at 127 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6fe21e29-3dbb-4d68-ad72-077904ba73fe")
-	)
-	(junction
-		(at 175.26 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c215d398-ab7a-448f-8456-020c44d334b2")
 	)
 	(junction
 		(at 175.26 76.2)
@@ -1001,12 +1007,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c89e5629-53e1-4539-87fc-2eb590f8a7eb")
-	)
-	(junction
-		(at 175.26 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "df1645c3-aa70-4a71-997e-e56f279cfddc")
 	)
 	(junction
 		(at 127 63.5)
@@ -1645,6 +1645,178 @@
 		)
 	)
 	(symbol
+		(lib_name "D_Small_1")
+		(lib_id "Device:D_Small")
+		(at 175.26 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5625124c-4785-4b54-917a-0030a32b4324")
+		(property "Reference" "D2"
+			(at 169.418 56.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SODF107-SH"
+			(at 185.674 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 175.26 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 175.26 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 175.26 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 175.26 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9b9673f-1874-4652-bb15-1b9ff6a27b48")
+		)
+		(pin "2"
+			(uuid "5dbc0b0e-7c1a-46a3-aeef-0b39a586400f")
+		)
+		(instances
+			(project "DriverBoard"
+				(path "/6b2aea6d-5084-4a15-abee-69a455b7078c/bd1ee54e-e470-4e6c-b487-ecc2bf967c4b"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "D_Small_1")
+		(lib_id "Device:D_Small")
+		(at 175.26 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5f88adac-fdb6-4edc-a7e6-2eca32636f1d")
+		(property "Reference" "D7"
+			(at 169.418 41.402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SODF107-SH"
+			(at 185.674 37.592 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 175.26 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 175.26 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 175.26 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 175.26 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ce1ff5a-e683-4a74-ae23-5439eb528e23")
+		)
+		(pin "2"
+			(uuid "b5832888-0cf3-4168-8adf-d2892622d95d")
+		)
+		(instances
+			(project "DriverBoard"
+				(path "/6b2aea6d-5084-4a15-abee-69a455b7078c/bd1ee54e-e470-4e6c-b487-ecc2bf967c4b"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 175.26 58.42 180)
 		(unit 1)
@@ -1901,178 +2073,6 @@
 		)
 	)
 	(symbol
-		(lib_name "D_Small_1")
-		(lib_id "Device:D_Small")
-		(at 175.26 53.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c48cbfcc-de86-49eb-8f1d-655c6920012f")
-		(property "Reference" "D2"
-			(at 181.102 51.816 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS1P3L-M3"
-			(at 183.388 53.848 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMP_DO-220AA"
-			(at 175.26 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 175.26 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 175.26 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 175.26 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "471b3935-79f3-4eeb-a02b-e936ddc0148d")
-		)
-		(pin "2"
-			(uuid "1af2ccf8-701f-4963-a4d8-9619158eec45")
-		)
-		(instances
-			(project "DriverBoard"
-				(path "/6b2aea6d-5084-4a15-abee-69a455b7078c/bd1ee54e-e470-4e6c-b487-ecc2bf967c4b"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "D_Small_1")
-		(lib_id "Device:D_Small")
-		(at 175.26 38.1 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ca30be72-b8fb-43e5-a91e-ceda12df05bf")
-		(property "Reference" "D7"
-			(at 181.102 36.576 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS1P3L-M3"
-			(at 183.388 38.608 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMP_DO-220AA"
-			(at 175.26 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 175.26 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 175.26 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 175.26 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "61089215-19b9-4113-8323-eb87ad0645cd")
-		)
-		(pin "2"
-			(uuid "cd2228c9-f4d4-4253-aaf6-178f028e958f")
-		)
-		(instances
-			(project "DriverBoard"
-				(path "/6b2aea6d-5084-4a15-abee-69a455b7078c/bd1ee54e-e470-4e6c-b487-ecc2bf967c4b"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 127 63.5 0)
 		(unit 1)
@@ -2148,24 +2148,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d48bbc5c-ceea-48f2-8b73-7b1322a2792a")
+		(uuid "d52c6396-e03d-4f49-b8dc-9a930148bd2f")
 		(property "Reference" "D3"
-			(at 181.102 67.056 90)
+			(at 169.418 71.882 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SS1P3L-M3"
-			(at 183.388 69.088 90)
+		(property "Value" "SODF107-SH"
+			(at 185.674 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMP_DO-220AA"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 175.26 68.58 90)
 			(effects
 				(font
@@ -2211,10 +2211,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "abae9f5a-3bbb-4945-a5e2-f244ce29dce1")
+			(uuid "0ff02278-540b-456f-b421-71a3ab06eb88")
 		)
 		(pin "2"
-			(uuid "de21c34e-78ff-4546-ac75-ce79cb530402")
+			(uuid "a6b6b660-66c9-4058-9e5e-3ebef19c642f")
 		)
 		(instances
 			(project "DriverBoard"
