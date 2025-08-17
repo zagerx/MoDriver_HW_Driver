@@ -7,7 +7,7 @@ HEADER
   9
 $ACADVER
   1
-AC1021
+AC1018
   9
 $DWGCODEPAGE
   3
@@ -91,7 +91,7 @@ STANDARD
   9
 $CLAYER
   8
-虚线层
+\U+865A\U+7EBF\U+5C42
   9
 $CELTYPE
   6
@@ -376,42 +376,6 @@ $DIMLWE
 $DIMTMOVE
  70
     0
-  9
-$DIMFXL
- 40
-1
-  9
-$DIMFXLON
- 70
-    0
-  9
-$DIMJOGANG
- 40
-0.7854
-  9
-$DIMTFILL
- 70
-    0
-  9
-$DIMTFILLCLR
- 70
-    0
-  9
-$DIMARCSYM
- 70
-    0
-  9
-$DIMLTYPE
-  6
-
-  9
-$DIMLTEX1
-  6
-
-  9
-$DIMLTEX2
-  6
-
   9
 $LUNITS
  70
@@ -962,118 +926,6 @@ $DIMASSOC
 $PROJECTNAME
   1
 
-  9
-$CAMERADISPLAY
-290
-    0
-  9
-$LENSLENGTH
- 40
-50
-  9
-$CAMERAHEIGHT
- 40
-0
-  9
-$STEPSPERSEC
- 40
-2
-  9
-$STEPSIZE
- 40
-50
-  9
-$3DDWFPREC
- 40
-2
-  9
-$PSOLWIDTH
- 40
-5
-  9
-$PSOLHEIGHT
- 40
-80
-  9
-$LOFTANG1
- 40
-1.570796326794897
-  9
-$LOFTANG2
- 40
-1.570796326794897
-  9
-$LOFTMAG1
- 40
-0
-  9
-$LOFTMAG2
- 40
-0
-  9
-$LOFTPARAM
- 70
-    7
-  9
-$LOFTNORMALS
-280
-    1
-  9
-$LATITUDE
- 40
-1
-  9
-$LONGITUDE
- 40
-1
-  9
-$NORTHDIRECTION
- 40
-0
-  9
-$TIMEZONE
- 70
--8000
-  9
-$LIGHTGLYPHDISPLAY
-280
-    1
-  9
-$TILEMODELIGHTSYNCH
-280
-    1
-  9
-$SOLIDHIST
-280
-    1
-  9
-$SHOWHIST
-280
-    1
-  9
-$DWFFRAME
-280
-    2
-  9
-$DGNFRAME
-280
-    0
-  9
-$REALWORLDSCALE
-290
-    1
-  9
-$INTERFERECOLOR
- 62
-    1
-  9
-$CSHADOW
-280
-    0
-  9
-$SHADOWPLANELOCATION
- 40
-0
   0
 ENDSEC
   0
@@ -1121,9 +973,9 @@ AcDbViewportTableRecord
  21
 1
  12
-59.86757858942022
+45.72509982639051
  22
-56.33019256712682
+33.32754484953822
  13
 0
  23
@@ -1149,7 +1001,7 @@ AcDbViewportTableRecord
  37
 0
  40
-141.0666668284279
+95.97166087963303
  41
 1.266717325227964
  42
@@ -1204,24 +1056,6 @@ AcDbViewportTableRecord
     0
 146
 0
-348
-10020
- 60
-    7
- 61
-    5
-292
-1
-282
-    1
-141
-0
-142
-0
- 63
-  250
-421
-3358443
   0
 ENDTAB
   0
@@ -2261,7 +2095,7 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-中心线层
+\U+4E2D\U+5FC3\U+7EBF\U+5C42
  70
     0
  62
@@ -2283,7 +2117,7 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-尺寸标注层
+\U+5C3A\U+5BF8\U+6807\U+6CE8\U+5C42
  70
     0
  62
@@ -2305,7 +2139,7 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-文本说明层
+\U+6587\U+672C\U+8BF4\U+660E\U+5C42
  70
     0
  62
@@ -2331,7 +2165,7 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-虚线层
+\U+865A\U+7EBF\U+5C42
  70
     0
  62
@@ -2353,7 +2187,7 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-轮廓线层
+\U+8F6E\U+5ED3\U+7EBF\U+5C42
  70
     0
  62
@@ -2648,12 +2482,6 @@ AcDbSymbolTableRecord
 AcDbBlockTableRecord
   2
 *Model_Space
- 70
-    0
-280
-    1
-281
-    0
   0
 BLOCK_RECORD
   5
@@ -2666,12 +2494,6 @@ AcDbSymbolTableRecord
 AcDbBlockTableRecord
   2
 *Paper_Space
- 70
-    0
-280
-    1
-281
-    0
   0
 BLOCK_RECORD
   5
@@ -2684,12 +2506,6 @@ AcDbSymbolTableRecord
 AcDbBlockTableRecord
   2
 *D1
- 70
-    0
-280
-    1
-281
-    0
   0
 BLOCK_RECORD
   5
@@ -2701,13 +2517,19 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
+*D3
+  0
+BLOCK_RECORD
+  5
+58
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
 *D2
- 70
-    0
-280
-    1
-281
-    0
   0
 ENDTAB
   0
@@ -2819,11 +2641,11 @@ AcDbBlockBegin
   0
 LINE
   5
-58
+5B
 100
 AcDbEntity
   8
-尺寸标注层
+\U+5C3A\U+5BF8\U+6807\U+6CE8\U+5C42
   6
 ByBlock
  62
@@ -2843,11 +2665,11 @@ AcDbLine
   0
 LINE
   5
-59
+5C
 100
 AcDbEntity
   8
-尺寸标注层
+\U+5C3A\U+5BF8\U+6807\U+6CE8\U+5C42
   6
 ByBlock
  62
@@ -2867,11 +2689,11 @@ AcDbLine
   0
 LINE
   5
-5A
+5D
 100
 AcDbEntity
   8
-尺寸标注层
+\U+5C3A\U+5BF8\U+6807\U+6CE8\U+5C42
   6
 ByBlock
  62
@@ -2891,11 +2713,11 @@ AcDbLine
   0
 MTEXT
   5
-5B
+5E
 100
 AcDbEntity
   8
-尺寸标注层
+\U+5C3A\U+5BF8\U+6807\U+6CE8\U+5C42
   6
 CONTINUOUS
  62
@@ -2937,11 +2759,11 @@ standard
   0
 SOLID
   5
-5C
+5F
 100
 AcDbEntity
   8
-尺寸标注层
+\U+5C3A\U+5BF8\U+6807\U+6CE8\U+5C42
   6
 ByBlock
  62
@@ -2977,11 +2799,11 @@ AcDbTrace
   0
 SOLID
   5
-5D
+60
 100
 AcDbEntity
   8
-尺寸标注层
+\U+5C3A\U+5BF8\U+6807\U+6CE8\U+5C42
   6
 ByBlock
  62
@@ -3039,6 +2861,192 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
+*D3
+ 70
+    1
+ 10
+0
+ 20
+0
+  3
+*D3
+  1
+
+  0
+LINE
+  5
+61
+100
+AcDbEntity
+  8
+\U+5C3A\U+5BF8\U+6807\U+6CE8\U+5C42
+  6
+ByBlock
+ 62
+    0
+370
+   -2
+100
+AcDbLine
+ 10
+-1.5988725666709
+ 20
+54.8780129152811
+ 11
+11.5988725666709
+ 21
+55.1219870847189
+  0
+MTEXT
+  5
+62
+100
+AcDbEntity
+  8
+\U+5C3A\U+5BF8\U+6807\U+6CE8\U+5C42
+  6
+CONTINUOUS
+ 62
+    0
+370
+   -2
+100
+AcDbMText
+ 10
+10.10613292875537
+ 20
+56.96971257420773
+ 30
+0
+ 40
+2.5
+ 41
+5.833333333333488
+ 71
+    5
+ 72
+    1
+  1
+3.20
+  7
+standard
+210
+0
+220
+0
+230
+1
+ 50
+1.059051987505079
+ 73
+    2
+ 44
+1
+  0
+SOLID
+  5
+63
+100
+AcDbEntity
+  8
+\U+5C3A\U+5BF8\U+6807\U+6CE8\U+5C42
+  6
+ByBlock
+ 62
+    0
+370
+   -2
+100
+AcDbTrace
+ 10
+3.400273317170691
+ 20
+54.97042737340148
+ 30
+0
+ 11
+0.9083945194642769
+ 21
+54.50800659765898
+ 31
+0
+ 12
+0.8930062310355145
+ 22
+55.34043369102358
+ 32
+0
+ 13
+0.8930062310355145
+ 23
+55.34043369102358
+ 33
+0
+  0
+SOLID
+  5
+64
+100
+AcDbEntity
+  8
+\U+5C3A\U+5BF8\U+6807\U+6CE8\U+5C42
+  6
+ByBlock
+ 62
+    0
+370
+   -2
+100
+AcDbTrace
+ 10
+6.599726682829309
+ 20
+55.02957262659852
+ 30
+0
+ 11
+9.091605480535723
+ 21
+55.49199340234101
+ 31
+0
+ 12
+9.106993768964486
+ 22
+54.65956630897642
+ 32
+0
+ 13
+9.106993768964486
+ 23
+54.65956630897642
+ 33
+0
+  0
+ENDBLK
+  5
+57
+330
+55
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+59
+330
+58
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
 *D2
  70
     1
@@ -3053,11 +3061,11 @@ AcDbBlockBegin
   0
 LINE
   5
-5E
+65
 100
 AcDbEntity
   8
-尺寸标注层
+\U+5C3A\U+5BF8\U+6807\U+6CE8\U+5C42
   6
 ByBlock
  62
@@ -3077,11 +3085,11 @@ AcDbLine
   0
 LINE
   5
-5F
+66
 100
 AcDbEntity
   8
-尺寸标注层
+\U+5C3A\U+5BF8\U+6807\U+6CE8\U+5C42
   6
 ByBlock
  62
@@ -3101,11 +3109,11 @@ AcDbLine
   0
 LINE
   5
-60
+67
 100
 AcDbEntity
   8
-尺寸标注层
+\U+5C3A\U+5BF8\U+6807\U+6CE8\U+5C42
   6
 ByBlock
  62
@@ -3125,11 +3133,11 @@ AcDbLine
   0
 MTEXT
   5
-61
+68
 100
 AcDbEntity
   8
-尺寸标注层
+\U+5C3A\U+5BF8\U+6807\U+6CE8\U+5C42
   6
 CONTINUOUS
  62
@@ -3171,11 +3179,11 @@ standard
   0
 SOLID
   5
-62
+69
 100
 AcDbEntity
   8
-尺寸标注层
+\U+5C3A\U+5BF8\U+6807\U+6CE8\U+5C42
   6
 ByBlock
  62
@@ -3211,11 +3219,11 @@ AcDbTrace
   0
 SOLID
   5
-63
+6A
 100
 AcDbEntity
   8
-尺寸标注层
+\U+5C3A\U+5BF8\U+6807\U+6CE8\U+5C42
   6
 ByBlock
  62
@@ -3251,9 +3259,9 @@ AcDbTrace
   0
 ENDBLK
   5
-57
+5A
 330
-55
+58
 100
 AcDbEntity
   8
@@ -3269,11 +3277,11 @@ ENTITIES
   0
 DIMENSION
   5
-64
+6B
 100
 AcDbEntity
   8
-尺寸标注层
+\U+5C3A\U+5BF8\U+6807\U+6CE8\U+5C42
   6
 ByLayer
  62
@@ -3327,11 +3335,11 @@ AcDbAlignedDimension
   0
 DIMENSION
   5
-65
+6C
 100
 AcDbEntity
   8
-尺寸标注层
+\U+5C3A\U+5BF8\U+6807\U+6CE8\U+5C42
   6
 ByLayer
  62
@@ -3385,11 +3393,11 @@ AcDbAlignedDimension
   0
 CIRCLE
   5
-66
+6D
 100
 AcDbEntity
   8
-轮廓线层
+\U+8F6E\U+5ED3\U+7EBF\U+5C42
   6
 ByLayer
  62
@@ -3407,11 +3415,11 @@ AcDbCircle
   0
 LINE
   5
-67
+6E
 100
 AcDbEntity
   8
-中心线层
+\U+4E2D\U+5FC3\U+7EBF\U+5C42
   6
 ByLayer
  62
@@ -3431,11 +3439,11 @@ AcDbLine
   0
 LINE
   5
-68
+6F
 100
 AcDbEntity
   8
-虚线层
+\U+865A\U+7EBF\U+5C42
   6
 ByLayer
  62
@@ -3455,11 +3463,11 @@ AcDbLine
   0
 CIRCLE
   5
-69
+70
 100
 AcDbEntity
   8
-轮廓线层
+\U+8F6E\U+5ED3\U+7EBF\U+5C42
   6
 ByLayer
  62
@@ -3477,11 +3485,11 @@ AcDbCircle
   0
 LINE
   5
-6A
+71
 100
 AcDbEntity
   8
-中心线层
+\U+4E2D\U+5FC3\U+7EBF\U+5C42
   6
 ByLayer
  62
@@ -3501,11 +3509,11 @@ AcDbLine
   0
 CIRCLE
   5
-6B
+72
 100
 AcDbEntity
   8
-轮廓线层
+\U+8F6E\U+5ED3\U+7EBF\U+5C42
   6
 ByLayer
  62
@@ -3523,11 +3531,11 @@ AcDbCircle
   0
 ARC
   5
-6C
+73
 100
 AcDbEntity
   8
-轮廓线层
+\U+8F6E\U+5ED3\U+7EBF\U+5C42
   6
 ByLayer
  62
@@ -3551,11 +3559,11 @@ AcDbArc
   0
 ARC
   5
-6D
+74
 100
 AcDbEntity
   8
-轮廓线层
+\U+8F6E\U+5ED3\U+7EBF\U+5C42
   6
 ByLayer
  62
@@ -3579,11 +3587,11 @@ AcDbArc
   0
 ARC
   5
-6E
+75
 100
 AcDbEntity
   8
-轮廓线层
+\U+8F6E\U+5ED3\U+7EBF\U+5C42
   6
 ByLayer
  62
@@ -3607,11 +3615,11 @@ AcDbArc
   0
 ARC
   5
-6F
+76
 100
 AcDbEntity
   8
-轮廓线层
+\U+8F6E\U+5ED3\U+7EBF\U+5C42
   6
 ByLayer
  62
@@ -3635,11 +3643,11 @@ AcDbArc
   0
 LINE
   5
-70
+77
 100
 AcDbEntity
   8
-轮廓线层
+\U+8F6E\U+5ED3\U+7EBF\U+5C42
   6
 ByLayer
  62
@@ -3659,11 +3667,11 @@ AcDbLine
   0
 LINE
   5
-71
+78
 100
 AcDbEntity
   8
-轮廓线层
+\U+8F6E\U+5ED3\U+7EBF\U+5C42
   6
 ByLayer
  62
@@ -3683,11 +3691,11 @@ AcDbLine
   0
 LINE
   5
-72
+79
 100
 AcDbEntity
   8
-轮廓线层
+\U+8F6E\U+5ED3\U+7EBF\U+5C42
   6
 ByLayer
  62
@@ -3707,11 +3715,11 @@ AcDbLine
   0
 LINE
   5
-73
+7A
 100
 AcDbEntity
   8
-轮廓线层
+\U+8F6E\U+5ED3\U+7EBF\U+5C42
   6
 ByLayer
  62
@@ -3731,11 +3739,11 @@ AcDbLine
   0
 LINE
   5
-74
+7B
 100
 AcDbEntity
   8
-虚线层
+\U+865A\U+7EBF\U+5C42
   6
 ByLayer
  62
@@ -3755,11 +3763,11 @@ AcDbLine
   0
 LINE
   5
-75
+7C
 100
 AcDbEntity
   8
-虚线层
+\U+865A\U+7EBF\U+5C42
   6
 ByLayer
  62
@@ -3779,11 +3787,11 @@ AcDbLine
   0
 LINE
   5
-76
+7D
 100
 AcDbEntity
   8
-虚线层
+\U+865A\U+7EBF\U+5C42
   6
 ByLayer
  62
@@ -3803,11 +3811,11 @@ AcDbLine
   0
 LINE
   5
-77
+7E
 100
 AcDbEntity
   8
-虚线层
+\U+865A\U+7EBF\U+5C42
   6
 ByLayer
  62
@@ -3827,11 +3835,11 @@ AcDbLine
   0
 LINE
   5
-78
+7F
 100
 AcDbEntity
   8
-虚线层
+\U+865A\U+7EBF\U+5C42
   6
 ByLayer
  62
@@ -3851,11 +3859,11 @@ AcDbLine
   0
 LINE
   5
-79
+80
 100
 AcDbEntity
   8
-虚线层
+\U+865A\U+7EBF\U+5C42
   6
 ByLayer
  62
@@ -3875,11 +3883,11 @@ AcDbLine
   0
 CIRCLE
   5
-7A
+81
 100
 AcDbEntity
   8
-轮廓线层
+\U+8F6E\U+5ED3\U+7EBF\U+5C42
   6
 ByLayer
  62
@@ -3897,11 +3905,11 @@ AcDbCircle
   0
 LINE
   5
-7B
+82
 100
 AcDbEntity
   8
-虚线层
+\U+865A\U+7EBF\U+5C42
   6
 ByLayer
  62
@@ -3921,11 +3929,11 @@ AcDbLine
   0
 LINE
   5
-7C
+83
 100
 AcDbEntity
   8
-虚线层
+\U+865A\U+7EBF\U+5C42
   6
 ByLayer
  62
@@ -3942,6 +3950,158 @@ AcDbLine
 5
  21
 53.4
+  0
+DIMENSION
+  5
+84
+100
+AcDbEntity
+  8
+\U+5C3A\U+5BF8\U+6807\U+6CE8\U+5C42
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbDimension
+  2
+*D3
+ 10
+3.400273317170691
+ 20
+54.97042737340148
+ 30
+0
+ 11
+4.965344578204856
+ 21
+56.8746797064406
+ 31
+0
+ 70
+   35
+ 71
+    5
+ 72
+    0
+  3
+Standard
+ 53
+0
+210
+0
+220
+0
+230
+1
+100
+AcDbDiametricDimension
+ 15
+6.599726682829309
+ 25
+55.02957262659852
+ 35
+0
+ 40
+0
+  0
+LINE
+  5
+85
+100
+AcDbEntity
+  8
+\U+865A\U+7EBF\U+5C42
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+5
+ 20
+12
+ 11
+5
+ 21
+18
+  0
+LINE
+  5
+86
+100
+AcDbEntity
+  8
+\U+865A\U+7EBF\U+5C42
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+8
+ 20
+15
+ 11
+2
+ 21
+15
+  0
+LINE
+  5
+87
+100
+AcDbEntity
+  8
+\U+865A\U+7EBF\U+5C42
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+5.000000000000002
+ 20
+48
+ 11
+5.000000000000002
+ 21
+42
+  0
+LINE
+  5
+88
+100
+AcDbEntity
+  8
+\U+865A\U+7EBF\U+5C42
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+8
+ 20
+45
+ 11
+2
+ 21
+45
   0
 ENDSEC
   0
@@ -3975,7 +4135,7 @@ AcDbDictionary
   0
 PLOTSETTINGS
   5
-7D
+89
 100
 AcDbPlotSettings
   6
